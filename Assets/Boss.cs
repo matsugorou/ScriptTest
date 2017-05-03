@@ -20,15 +20,14 @@ public class Boss {
     
 //発展課題　　魔法攻撃をするMagic関数
     public void Magic(int shouhi){
-        this.mp -= shouhi;
-        if (mp > shouhi){
-
+        
+        if (mp >= shouhi){
+           this.mp -= shouhi;
             Debug.Log("魔法攻撃をした。残りＭＰは" + mp + "です。");
-        }else{
+        } else{
             Debug.Log("ＭＰが足りない！！");
         }
-       
-    }
 
-    
+    }
+   
 }

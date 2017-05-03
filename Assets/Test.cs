@@ -41,7 +41,7 @@ public class Test : MonoBehaviour {
         lastboss.Magic(5);
         lastboss.Magic(5);
         lastboss.Magic(5);
-        
+       
     }
    
 
